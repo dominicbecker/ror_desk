@@ -29,13 +29,14 @@ See
 for more details on how to use RubyDesk.
 
 == Installation
+Rails 3 Users: 
+Type this at the rails application root
+    rails plugin install git://github.com/dominicbecker/ror_desk.git
+Add the following line to your Gemfile in the Rails root directory 
+    gem 'ruby_desk'
 Rails 2 Users:
 To install ror_desk plugin just type this at your rails application root
     script/plugin install git://github.com/aseldawy/ror_desk.git
-Rails 3 Users:
-    rails plugin install git://github.com/dominicbecker/ror_desk.git
-Also, add the following line to your Gemfile in the Rails root directory 
-    gem 'ruby_desk'
 
 == Example
 
