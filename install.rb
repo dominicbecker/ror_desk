@@ -6,6 +6,7 @@ FileUtils.cp src, target unless File.exists?(target)
 
 # Add line to Gemfile if there is a Gemfile to require ruby_desk
 gfname = File.join(Rails.root, 'Gemfile')
+puts gfname
 if File.exists(gfname)
   gf = File.open(gfname, 'a')
   gf.puts("\ngem \'ruby_desk\'")
